@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(pkill:*)",
+      "Bash(npm install:*)",
+      "Bash(npx sass:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -70,21 +70,14 @@
       "videographer": "Videographer",
       "editor": "Editor",
       "newsCode": "News Code",
-      "newsGroup": "News Group"
+      "newsGroup": "News Group",
+      "readingTime": "Reading time",
+      "minutes": "Minutes"
     }
   },
   "print": {
     "error": "Print error",
-    "contentNotFound": "Content element not found!",
-    "metadata": {
-      "author": "Author",
-      "publishDate": "Publish Date",
-      "views": "Views",
-      "readingTime": "Reading Time",
-      "photographer": "Photographer",
-      "videographer": "Videographer",
-      "editor": "Editor"
-    }
+    "contentNotFound": "Content element not found!"
   },
   "nav": {
     "contactUs": "Contact Us",
@@ -100,7 +93,10 @@
   "tools": {
     "toolbox": "Toolbox",
     "shortlink": {
-      "title": "Short Link"
+      "title": "Short Link",
+      "copy": "Copy Link",
+      "copied": "Copied!",
+      "failed": "Failed to copy!"
     },
     "print": "Print",
     "pdf": "PDF",
@@ -110,8 +106,13 @@
     "fontSize": "Font Size",
     "wordSpacing": "Word Spacing",
     "lineHeight": "Line Height",
+    "lineHeightAdjust": "Adjust Line Height",
+    "wordSpacingAdjust": "Adjust Word Spacing",
+    "backgroundColor": "Change Background",
     "reset": "Reset",
-    "textOnly": "Text Only"
+    "reloadPage": "Reload Page",
+    "textOnly": "Text Only",
+    "textOnlyMode": "Text Only Mode"
   },
   "tts": {
     "title": "Text to Speech",
@@ -123,6 +124,8 @@
   },
   "share": {
     "title": "Share",
+    "shareButton": "Share",
+    "facebook": "Share on Facebook",
     "telegram": "Share on Telegram",
     "whatsapp": "Share on WhatsApp",
     "eitaa": "Share on Eitaa",
@@ -131,6 +134,8 @@
     "linkedin": "Share on LinkedIn"
   },
   "relatedContent": {
+    "title": "Content Related to This News",
+    "description": "Click on the desired title for quick access to each section.",
     "attachments": "Attachments",
     "images": "Images",
     "videos": "Videos",
@@ -143,33 +148,119 @@
     "videos": "Videos",
     "audios": "Audios",
     "relatedNews": "Related News",
-    "tags": "Tags"
+    "tags": "Tags",
+    "textNews": "Text News",
+    "pictureNews": "Picture News",
+    "videoNews": "Video News",
+    "audioNews": "Audio News",
+    "video": "Video",
+    "audio": "Audio",
+    "picture": "Picture"
   },
   "metadata": {
     "author": "Author",
-    "publishDate": "Publish Date",
-    "views": "Views",
+    "publishDate": "Publish Date:",
+    "views": "Views:",
     "newsCode": "News Code",
     "newsGroup": "News Group",
-    "photographer": "Photographer",
-    "videographer": "Videographer",
-    "editor": "Editor"
+    "photographer": "Photographer:",
+    "videographer": "Videographer:",
+    "editor": "Editor:",
+    "readingTime": "Reading Time:",
+    "minutes": "minutes"
   },
   "modal": {
     "sendToFriend": {
       "title": "Send to Friend",
       "yourEmail": "Your Email",
       "recipientEmail": "Recipient Email",
-      "captchaLabel": "Enter the text",
-      "submit": "Send"
+      "captchaLabel": "Enter the text in the image:",
+      "submit": "Send",
+      "cancel": "Cancel"
     },
     "readingMode": {
-      "title": "Reading Mode"
+      "title": "Reading Mode",
+      "themes": {
+        "light": "Light",
+        "dark": "Dark",
+        "yellow": "Yellow",
+        "blue": "Blue"
+      }
     }
+  },
+  "comments": {
+    "title": "Comments",
+    "count": "comment(s) for this news",
+    "reply": "Reply",
+    "submitComment": "Submit Comment",
+    "cancel": "Cancel",
+    "leaveComment": "Leave a Comment"
+  },
+  "form": {
+    "fullName": "Full Name",
+    "fullNameRequired": "Full Name *",
+    "email": "Email",
+    "emailRequired": "Email *",
+    "comment": "Enter your comment ...",
+    "captcha": "Security Code",
+    "captchaInstruction": "Enter the text in the image:",
+    "captchaRefresh": "Refresh Security Code",
+    "yourComment": "Your Comment"
   },
   "vote": {
     "question": "Was this news helpful?",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "useful": "Useful",
+    "notUseful": "Not Useful",
+    "voteGroup": "Vote for News"
+  },
+  "audio": {
+    "player": "Text-to-Speech Player",
+    "unsupported": "Your browser does not support audio playback."
+  },
+  "images": {
+    "author": "Author Image",
+    "commenter": "Commenter Image"
+  },
+  "about": {
+    "title": "About Niafam",
+    "subtitle": "Leading news platform with multi-language support",
+    "cta": "Learn More",
+    "mission": {
+      "title": "Our Mission",
+      "text": "Delivering accurate, timely and unbiased news to users worldwide with support for multiple languages."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "Becoming the most trusted news source in the region through technology and innovation."
+    },
+    "values": {
+      "title": "Our Values",
+      "text": "Honesty, transparency, innovation and commitment to quality in everything we do."
+    },
+    "features": {
+      "multilingual": {
+        "title": "🌍 Multilingual",
+        "text": "Support for 5 languages: Persian, English, Arabic, Turkish and Russian"
+      },
+      "responsive": {
+        "title": "📱 Responsive",
+        "text": "Optimized design for all devices from mobile to desktop"
+      },
+      "accessible": {
+        "title": "♿ Accessible",
+        "text": "Accessibility features for all users"
+      }
+    },
+    "modal": {
+      "title": "More Information",
+      "content": "This is a test module that demonstrates how you can add new modules to the project. This module uses i18n, modal and custom styles.",
+      "feature1": "Full i18n support",
+      "feature2": "Modal with MicroModal",
+      "feature3": "Custom styles",
+      "feature4": "Smooth animations",
+      "close": "Close"
+    }
   }
 }
